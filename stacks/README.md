@@ -4,7 +4,7 @@ Stacks are a LIFO(last in, first out) data structure. It allows you to push item
 
 
 ### Operations on stacks
-* Push: At item to top of stack
+* Push: Add item to top of stack
 * Pop: Retrive item from top of stack
 * Peek: Check the item at top of stack without modifying it
 * Print: Print all elements on the stack

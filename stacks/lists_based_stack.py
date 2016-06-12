@@ -20,14 +20,14 @@ class Stack(object):
     def push(self, item):
         """Insert item to top of stack."""
         if self.is_stack_full():
-            raise ValueError("Can't add item to stack, stack is full")
+            raise ValueError("Can't add item, stack is full")
         else:
             self.stack.append(item)
 
     def pop(self):
         """Remove an item from top of stack."""
         if self.is_stack_empty():
-            raise ValueError("Can't retrive item from stack, stack is empty")
+            raise ValueError("Can't retrive item, stack is empty")
         else:
             self.stack.pop()
 
@@ -36,7 +36,7 @@ class Stack(object):
         return len(self.stack)
 
     def print_stack(self):
-        """Print the item stack."""
+        """Print the entire stack."""
         print self.stack
 
     def peek(self):
