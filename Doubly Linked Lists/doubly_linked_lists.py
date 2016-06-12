@@ -115,3 +115,8 @@ class DoublyLinkedList(object):
                         self.tail = current.get_previous()
                         current.get_previous().next = current.get_next()
                 current = current.get_next()
+
+    def clear_list(self):
+        """Remove entire list."""
+        self.head = None
+        self.tail = None
